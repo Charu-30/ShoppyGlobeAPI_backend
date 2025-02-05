@@ -1,7 +1,7 @@
 # Overview
 Shoppy Globe is a fully responsive e-commerce web application that provides users with a seamless and delightful shopping experience. In this project, built the backend API using Node.js, Express, and MongoDB. It provides functionalities for user authentication, product management, and shopping cart operations.
 
-#Features
+# Features
 **User Authentication**: Register and login users with JWT authentication.
 
 **Product Management**: CRUD operations for products.
@@ -71,7 +71,8 @@ Use Thunder Client for API Testing
 3. Add Authorization header(JWT <token>) for protected routes.
 
 # Screenshots
-All testing screenshots are provided in the word document.
+All testing screenshots are provided in the word document below:
+[ShoppyGlobe APIs Endpoints.docx](https://github.com/user-attachments/files/18675941/ShoppyGlobe.APIs.Endpoints.docx)
 
 # Contributing
 Feel free to fork this repository, make changes, and submit a pull request. Suggestions and improvements are welcome!
