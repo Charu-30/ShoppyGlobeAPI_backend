@@ -47,17 +47,23 @@ Ensure you have Node.js and MongoDB installed.
 
 * Authentication
 **POST /register** - Register a new user
+  
 **POST /login** - Login and receive a JWT token
 
 * Products
 **GET /products** - Fetch all products
+  
 **POST /products** - Add a new product
+
 **PUT /products/:id** - Update product details
+
 **DELETE /products/:id** - Delete a product
 
 * Cart (Protected Routes - Requires JWT Token)
 **POST /cart** - Add a product to the cart
+  
 **PUT /cart/:id** - Update product quantity
+
 **DELETE /cart/:id** - Remove a product from the cart
 
 # Testing
@@ -72,6 +78,7 @@ Use Thunder Client for API Testing
 
 # Screenshots
 All testing screenshots are provided in the word document below:
+
 [ShoppyGlobe APIs Endpoints.docx](https://github.com/user-attachments/files/18675941/ShoppyGlobe.APIs.Endpoints.docx)
 
 # Contributing
