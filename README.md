@@ -46,11 +46,13 @@ Ensure you have Node.js and MongoDB installed.
 # API Endpoints
 
 * Authentication
+  
 **POST /register** - Register a new user
   
 **POST /login** - Login and receive a JWT token
 
 * Products
+  
 **GET /products** - Fetch all products
   
 **POST /products** - Add a new product
@@ -60,6 +62,7 @@ Ensure you have Node.js and MongoDB installed.
 **DELETE /products/:id** - Delete a product
 
 * Cart (Protected Routes - Requires JWT Token)
+  
 **POST /cart** - Add a product to the cart
   
 **PUT /cart/:id** - Update product quantity
@@ -70,6 +73,7 @@ Ensure you have Node.js and MongoDB installed.
 Use Thunder Client for API Testing
 
 * Authentication
+  
 1. Register a new user with /register
 
 2. Login with /login to receive a JWT token
